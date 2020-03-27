@@ -13,9 +13,9 @@ class MeasurementForm(forms.ModelForm):
         ]
 
         labels = {
-            'variable' : 'Variable',
-            'value' : 'Value',
-            'unit' : 'Unit',
-            'place' : 'Place',
+              'variable' : 'Producto',
+             'value' : 'Precio',
+             'unit' : 'Cantidad',
+             'place' : 'Tienda',
             #'dateTime' : 'Date Time',
         }
